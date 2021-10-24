@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_vBelQbJVEee2ip5KGG6K4g" name="ValeursStocks" dataPackage="_vBelQrJVEee2ip5KGG6K4g _Vya_ALJZEee2ip5KGG6K4g _qw49ALJZEee2ip5KGG6K4g" Server="Localhost 127.0.0.1" FilePath="C:/TALEND Entrees-Sorties/Sources Excel/Sources Job Complet/Extraction Stocks.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Feuil1" firstColumn="1" lastColumn="11" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Feuil1:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_vBelQrJVEee2ip5KGG6K4g" name="default" dataManager="_vBelQbJVEee2ip5KGG6K4g"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Vya_ALJZEee2ip5KGG6K4g" name="default" dataManager="_vBelQbJVEee2ip5KGG6K4g"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_qw49ALJZEee2ip5KGG6K4g" name="default" dataManager="_vBelQbJVEee2ip5KGG6K4g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_qw49AbJZEee2ip5KGG6K4g" id="_l-eW4LJZEee2ip5KGG6K4g" label="ValStock">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qw49ArJZEee2ip5KGG6K4g" label="Article" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qw49A7JZEee2ip5KGG6K4g" label="Division" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qw49BLJZEee2ip5KGG6K4g" label="Stock_total" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qw49BbJZEee2ip5KGG6K4g" label="UQ" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qw49BrJZEee2ip5KGG6K4g" label="Valeur_Globale" length="-1" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qw49B7JZEee2ip5KGG6K4g" label="PMP" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qw49CLJZEee2ip5KGG6K4g" label="Par" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qw49CbJZEee2ip5KGG6K4g" label="ClVa" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qw49CrJZEee2ip5KGG6K4g" label="CtrPr" length="6" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qw49C7JZEee2ip5KGG6K4g" label="Type_Art_" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qw49DLJZEee2ip5KGG6K4g" label="Gest" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
